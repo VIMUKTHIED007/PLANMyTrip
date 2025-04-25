@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Who is traveling?"
+        android:textSize="24sp"
+        android:layout_marginBottom="16dp"/>
+
+    <RadioGroup
+        android:id="@+id/traveler_type_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/just_me"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Just Me"
+            android:layout_marginBottom="8dp"/>
+
+        <RadioButton
+            android:id="@+id/couple"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="A Couple"
+            android:layout_marginBottom="8dp"/>
+
+        <RadioButton
+            android:id="@+id/family"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Family"
+            android:layout_marginBottom="8dp"/>
+
+        <RadioButton
+            android:id="@+id/friends"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Friends"
+            android:layout_marginBottom="8dp"/>
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/next_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout> 

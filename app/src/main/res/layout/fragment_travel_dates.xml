@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="When are you traveling?"
+        android:textSize="24sp"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Date"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/start_date_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Select start date"
+        android:padding="12dp"
+        android:background="@android:drawable/edit_text"
+        android:clickable="true"
+        android:focusable="false"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="End Date"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/end_date_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Select end date"
+        android:padding="12dp"
+        android:background="@android:drawable/edit_text"
+        android:clickable="true"
+        android:focusable="false"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/next_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout> 
